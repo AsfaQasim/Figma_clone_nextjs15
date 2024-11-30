@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 const Navbar = () => {
-  let navitem = [
+ const  navitem = [
     {
       name: "Works",
       link: "#",
@@ -22,7 +22,7 @@ const Navbar = () => {
       <ul
         className={`${inter.className} m-[66px] flex justify-end h-[24px] font-medium text-[20px] space-x-6`}
       >
-        {navitem.map((item, i) => (
+        {navitem.map((item) => (
           <li key={item.name}>
             <Link href={item.link}>{item.name}</Link>
           </li>

@@ -1,10 +1,7 @@
 import React from "react";
-import Link from "next/link";
-import { Heebo } from "next/font/google";
+
 import Recentpostcard2 from "./recentpostcard2";
 import Recentpostcard from "./recentpostcard";
-
-const heebo = Heebo({ subsets: ["latin"] });
 
 const Recentpost = () => {
   return (

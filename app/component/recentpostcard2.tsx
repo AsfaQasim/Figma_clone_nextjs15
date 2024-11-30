@@ -1,6 +1,5 @@
 import React from "react";
-import { Heebo } from "next/font/google";
-const heebo = Heebo({ subsets: ["latin"] });
+
 
 const Recentpostcard2 = () => {
   return (
