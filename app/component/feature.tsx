@@ -4,7 +4,7 @@ import Image from "next/image";
 const Feature = () => {
   return (
     <div className="w-full h-auto">
-      <div className="px-4 sm:px-5 md:px-14 lg:px-36 flex justify-center items-center">
+      <div className="px-4 sm:px-5 md:px-14 lg:px-36 flex justify-center items-center"  data-aos="fade-down">
         <Image
           src="/featured.png"
           alt="featured_work"

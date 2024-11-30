@@ -7,7 +7,7 @@ const Recentpost = () => {
   return (
     
     
-    <div className="bg-recentBackground my-[66px] h-[502px] flex items-center justify-between">
+    <div className="bg-recentBackground my-[66px] h-[502px] flex items-center justify-between"  data-aos="fade-down">
       <Recentpostcard2/>
       <Recentpostcard/>
 
